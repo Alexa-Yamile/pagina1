@@ -5,7 +5,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to top, rgba(4, 9, 30, 0.315) 0%, rgba(4,9,30,0.315) 100%),url(/imagenes/fachada.jpg);
+    background-image: linear-gradient(to top, rgba(4, 9, 30, 0.315) 0%, rgba(4,9,30,0.315) 100%),url(imagenes/fachada.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;/*para dejar la imagen fija*/
@@ -14,7 +14,7 @@
 .header.menu{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to top, rgba(4, 9, 30, 0.315) 0%, rgba(4,9,30,0.315) 100%),url(/imagenes/fachada.jpg);
+    background-image: linear-gradient(to top, rgba(4, 9, 30, 0.315) 0%, rgba(4,9,30,0.315) 100%),url(imagenes/fachada.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;/*para dejar la imagen fija*/
@@ -98,7 +98,7 @@ img{
   }
 /*---------------------fondo del body----------------------------*/
 body{
-    background-image: url("/imagenes/fondo.jpg");
+    background-image: url("imagenes/fondo.jpg");
     }
 h3{
     text-align: center;
