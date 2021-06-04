@@ -208,11 +208,11 @@ h3{
 }
 /*--------------------------footer --------------------------*/
 .footer{
-    width: 80%;
+    width: 95%;
     text-align: center;
     padding: 30px 0;
     margin: auto;
-    background: #93dfe9;
+    background: linear-gradient(0deg,  #EB984E, #F5CBA7 );
 }
 .footer h4{
     margin-bottom: 25px;
