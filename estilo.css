@@ -86,7 +86,7 @@ p{
 /*para que salgan los cuadros de color azul*/
 .course-col{
     flex-basis: 31%;
-    background: #e6b54d79;
+    background: #e09136bd;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -97,13 +97,13 @@ img{
     width: 200px; height: 200px;
   }
 /*---------------------fondo del body----------------------------*/
-    body{
+body{
         background: url("imagenes/fondopapel.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        }
+    }
 h3{
     text-align: center;
     font-weight: 600;
