@@ -65,7 +65,7 @@ nav{
 .nav-links ul li:hover::after{
     width: 100%;
 }
-/*--------------------------------------- cafes ------------------------------*/
+/*---------------------------------------------------------------------*/
 /*alinear el texto al centro y pone margen*/
 .course{
     width: 80%;
@@ -93,13 +93,14 @@ p{
 }
 .doscolumnas{/*..................dos columnas*/
     margin-top: 5%;
-    display: flex;
+    display: grid;
     justify-content: space-around;
 
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-top: 100px;
     text-align: center;
+    grid-template-columns: 40% 40%;
 }
 /*para que salgan los cuadros de color azul*/
 .course-col{
