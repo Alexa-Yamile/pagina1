@@ -5,7 +5,16 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to top, rgba(4, 9, 30, 0.315) 0%, rgba(4,9,30,0.315) 100%),url(imagenes/Fachada.jpg);
+    background-image: linear-gradient(to top, rgba(4, 9, 30, 0.315) 0%, rgba(4,9,30,0.315) 100%),url(imagenes/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;/*para dejar la imagen fija*/
+    position: relative;
+}
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(4, 9, 30, 0.315) 0%, rgba(4,9,30,0.315) 100%),url(imagenes/header2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;/*para dejar la imagen fija*/
@@ -14,7 +23,7 @@
 .header.menu{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to top, rgba(4, 9, 30, 0.315) 0%, rgba(4,9,30,0.315) 100%),url(imagenes/Fachada.jpg);
+    background-image: linear-gradient(to top, rgba(4, 9, 30, 0.315) 0%, rgba(4,9,30,0.315) 100%),url(imagenes/header.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;/*para dejar la imagen fija*/
@@ -48,7 +57,7 @@ nav{
     content: '';
     width: 0%;
     height: 2px;
-    background: #36f456;
+    background: #f4366f;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -65,13 +74,14 @@ nav{
     padding-top: 5%;
 }
 h1{
-    font-size: 36px;
+    font-size: 45px;
     font-weight: 600;/*es el grueso de la letra*/
 }
 /*da color a las p*/
 p{
-    color: rgb(0, 0, 0);
-    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: 20px;
     line-height: 22px;
     padding: 10px;
 }
@@ -94,7 +104,7 @@ p{
 /*para que salgan los cuadros de color azul*/
 .course-col{
     flex-basis: 31%;
-    background: #e09136bd;
+    background: #fd86fdbd;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -107,7 +117,7 @@ img{
   }
 /*---------------------fondo del body----------------------------*/
 body{
-        background: url("imagenes/fondopapel.jpg") no-repeat center center fixed;
+        background: url("imagenes/fondo.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -212,7 +222,7 @@ h3{
     text-align: center;
     padding: 30px 0;
     margin: auto;
-    background: linear-gradient(0deg,  #EB984E, #F5CBA7 );
+    background: linear-gradient(0deg,  #f85ebd, #ff92ce );
 }
 .footer h4{
     margin-bottom: 25px;
